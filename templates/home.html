@@ -1,0 +1,8 @@
+<h1>This is My Home Page</h1>
+
+<form action="{% url 'count' %}" id='form1'>
+    <label for="userText">Enter Your text here</label><br><br>
+    <textarea name="userText" id="userText" cols="40" rows="10"></textarea><br>
+</form>
+
+<button type="submit" form="form1" value="Submit">Count</button>
